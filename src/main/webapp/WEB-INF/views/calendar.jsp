@@ -1,17 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-sacle=1.0">
-<title>Calendar</title>
-<link rel="stylesheet" href="/resources/calendar.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar App Vanilla JS</title>
 
-</head>
-<body>
+    <link rel="stylesheet" href="/resources/calendar.css">
+  </head>
+  <body>
 
-	<div id="container">
+    <div id="container">
       <div id="header">
         <div id="monthDisplay"></div>
         <div>
@@ -19,25 +19,21 @@
           <button id="nextButton">Next</button>
         </div>
       </div>
-	
-	<div id="container">
-		<div id="header"></div>
-		
-		<div id="weekdays">
-			<div>Sunday</div>
-			<div>Monday</div>
-			<div>Tuesday</div>
-			<div>Wednesday</div>
-			<div>Thursday</div>
-			<div>Friday</div>
-			<div>Saturday</div>
-		
-		</div>
-		
-		<div id="calendar"></div>
-	</div>
-	
-	<div id="newEventModal">
+
+      <div id="weekdays">
+        <div>Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+      </div>
+
+      <div id="calendar"></div>
+    </div>
+
+    <div id="newEventModal">
       <h2>New Event</h2>
 
       <input id="eventTitleInput" placeholder="Event Title" />
@@ -56,7 +52,7 @@
     </div>
 
     <div id="modalBackDrop"></div>
-	
-	<script src="/resources/calendar.js"></script>
-</body>
+
+    <script src="/resources/calendar.js"></script>
+  </body>
 </html>
